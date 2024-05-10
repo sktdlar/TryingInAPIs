@@ -1,0 +1,17 @@
+﻿<Window x:Class="ThreeAPIInUsing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreeAPIInUsing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Frame Name="MainFrame"/>
+        <StackPanel Orientation="Horizontal">
+            <Button Width="40" Height="40" FontSize="24" VerticalAlignment="Bottom" Name="First" Click="First_Click" Background="{x:Null}">1</Button>
+            <Button Width="40" Height="40" FontSize="24" VerticalAlignment="Bottom" Name="Second" Click="Second_Click" Background="{x:Null}">2</Button>
+            <Button Width="40" Height="40" FontSize="24" VerticalAlignment="Bottom" Name="Third" Click="Third_Click" Background="{x:Null}">3</Button>
+        </StackPanel>
+    </Grid>
+</Window>
